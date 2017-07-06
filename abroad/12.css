@@ -1,0 +1,447 @@
+body{
+background-color:#b3ecff;
+background-size: cover;
+}
+
+div.ex4 {
+padding-left: 12%;
+padding-right: 12%;
+word-wrap: break-word;
+}
+
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family:Comic Sans MS;
+    font-size:30px;
+}*/
+
+ul.ex1 {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:black;
+    font-family: Comic Sans MS;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+    font-size:30px;
+}
+/*li {
+    float: left;
+}*/
+
+div div li{
+    float:none;
+}
+/*for sign up and*/
+
+.log{
+  float: right;
+}
+
+li a:hover, .dropdown1:hover .dropbtn {
+    background-color: #ff656c;
+}
+
+li a:hover{
+background-color:none;
+}
+
+li.dropdown1 {
+    display: inline-block;
+}
+
+.dropdown1-content {
+    display: none;
+    position: absolute;
+    background-color:#595959;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown1-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown1-content a:hover {background-color: #f1f1f1;}
+
+.dropdown1:hover .dropdown1-content {
+    display: block;
+}
+
+/*NAVBAR*/
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: Montserrat;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: list-item;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+ul li.log  {
+    float:right;
+}
+
+ul li.log a:hover {background-color: #ff656c;}
+
+ul.topnav li a:hover {background-color: #ff656c;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:1050px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:1050px) {
+  ul.topnav.responsive {position: relative;overflow:visible;height:auto;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: none;
+  }
+  ul.topnav.responsive li.log a {
+    text-align:right;
+  }
+}
+
+div div li{
+    float:none;
+}
+
+textarea{
+resize:none;
+}
+
+
+ 
+a:link
+{
+text-decoration:none;
+}
+
+a:hover, a:active {
+    background-color: #b3ecff;
+}
+
+ul.c li a{
+    color:white;
+    font-size:55%;
+    float:none;
+}
+
+ul.c li a:hover{
+    background-color: #333;
+}
+
+.prep{
+    background-attachment:fixed;
+    word-wrap: break-word;
+    float: left;
+   padding-left: 8%;
+   padding-right:0%;
+   max-width: 50%;
+   height:auto;
+}
+ 
+.c1 {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #b3ecff;
+    font-family: Comic Sans MS;
+    font-size:35px;
+    text-align:center;
+}
+ 
+
+ul.c1 li a{
+    color:black;
+    font-size:55%;
+    float:none;
+}
+
+ul.c1 li a:link,a:visited{
+    color: #ff656c;
+    text-decoration:underline;
+}
+
+ul.c1 li a:hover{
+    background-color: #b3ecff;
+}
+
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+div.content{
+padding-left:25%;
+padding-right:10%; 
+height:auto;
+word-wrap: break-word;
+background-color:#b3ecff;
+font-size:17px;
+}
+
+form.course{
+padding-left:12%;
+padding-right: 12%;
+}
+
+.footer-basic-centered{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 18px sans-serif;
+
+	padding: 4%;
+	margin:80px 0 0 0;
+}
+
+.footer-basic-centered .footer-company-motto{
+	color:  #8d9093;
+	font-size: 24px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+	list-style: none;
+	font-weight: bold;
+	color:  #ffffff;
+	padding: 3% 0 2%;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links a {
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+	
+}
+.flink:hover, .flink:active{
+background-color:#292c2f;
+}
+
+
+pre,p{
+font-size:13px;
+
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=email], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family:Elephant;
+    font-size:120%;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+}
+
+textarea{
+resize:none;
+}
+
+.logo {
+width: 213px;
+height: 36px;
+margin: 30px auto;
+}
+
+.login-block {
+width: 320px;
+padding: 20px;
+background: #fff;
+border-radius: 5px;
+border-top: 5px solid #ff656c;
+margin: 0 auto;
+}
+
+.login-block h1 {
+text-align: center;
+color: #000;
+font-size: 18px;
+text-transform: uppercase;
+margin-top: 0;
+margin-bottom: 20px;
+}
+
+.login-block input {
+width: 100%;
+height: 42px;
+box-sizing: border-box;
+border-radius: 5px;
+border: 1px solid #ccc;
+margin-bottom: 20px;
+font-size: 14px;
+font-family: Montserrat;
+padding: 0 20px 0 50px;
+outline: none;
+}
+
+.login-block input#nam {
+background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+background-size: 16px 80px;
+}
+.login-block input#nam:focus {
+background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+background-size: 16px 80px;
+}
+/*.login-block input#num{
+background: #fff url('https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-16.png') 20px  no-repeat;
+background-size: 16px 16px;
+}
+.login-block input#num:focus {
+background: #fff url('https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-16.png') 20px  no-repeat;
+background-size: 16px 16px;
+}*/
+.login-block input#ema {
+background: #fff url('https://cdn4.iconfinder.com/data/icons/social-icons-6/40/mail-16.png') 20px no-repeat;
+background-size: 16px 16px;
+}
+.login-block input#ema:focus {
+background: #fff url('https://cdn4.iconfinder.com/data/icons/social-icons-6/40/mail-16.png') 20px no-repeat;
+background-size: 16px 16px;
+}
+.login-block input#password {
+background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+background-size: 16px 80px;
+}
+.login-block input#password:focus {
+background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+background-size: 16px 80px;
+}
+.login-block input#c_password {
+background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+background-size: 16px 80px;
+}
+.login-block input#c_password:focus {
+background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+background-size: 16px 80px;
+}
+.login-block input:active, .login-block input:focus {
+border: 1px solid #ff656c;
+}
+
+.login-block button {
+width: 100%;
+height: 40px;
+background: #ff656c;
+box-sizing: border-box;
+border-radius: 5px;
+border: 1px solid #e15960;
+color: #fff;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 14px;
+font-family: Montserrat;
+outline: none;
+cursor: pointer;
+}
+
+.login-block button:hover {
+background: #ff7b81;
+}
+
+.country{
+    background-attachment:fixed;
+    word-wrap: break-word;
+    float: left;
+   margin: 10px;
+   padding-right:0%;
+   max-width: 40%;
+   height:auto;
+}
+ 
+.c {
+     list-style-type: none;
+    margin: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Comic Sans MS;
+    font-size:30px;
+    text-align:center;
+}
