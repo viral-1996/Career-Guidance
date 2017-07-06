@@ -1,2 +1,2 @@
-# Pong
-Game
+# Website
+Helps by providing info
